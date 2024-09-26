@@ -1,0 +1,744 @@
+body
+{
+    /* background-color: rgb(251, 251, 250); */
+    background-color: rgb(237, 231, 210);
+    margin:0;
+}
+
+#header
+{
+    
+ 
+    height:140px;
+    width:100%;
+    position: relative;
+    top:-20px;
+   
+   z-index:4;
+    /* border:1px solid burlywood; */
+   
+    background-color: rgb(182, 65, 65);
+    
+    
+   
+   
+
+}
+
+#search
+{
+    position:relative;
+    left:40px;
+    top:70px;
+    width:250px;
+    height:40px;
+    text-indent: 30px;
+    font-size: larger;
+    
+   
+}
+#search:focus
+{
+    background-color: rgb(237, 231, 210);
+}
+#searchimage
+{
+    position: absolute;
+    left:50px;
+    top:80px;
+}
+#headingone
+{
+    position:absolute;
+    left:40px;
+    /* left:100px; */
+    top:40px;
+    color: rgb(229, 229, 229);
+     width:180px;
+     font-size:20px;
+    /* height:80px;  */
+    /* font-style: normal; */
+    font-variant:small-caps;
+    font-weight: 500;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: cinzel;
+}
+
+.dropbtn 
+ {
+    /* background-color: rgb(255, 129, 129); */
+    /* color: rgb(24, 22, 22); */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:210px;
+    height:40px;
+    position: absolute;
+    left:30px;
+    background-color: rgb(182, 65, 65);
+    top:100px;
+    color:whitesmoke;
+    font-family: yatraone;
+  
+  }
+  
+  .dropdown 
+  {
+    position: absolute;
+    display: inline;
+  }
+  
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute;
+    
+    background-color: #983d3d;
+    min-width: 400px;
+    top:140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:30px;
+    /* right: -50px; */
+    font-family: cinzel;
+    font-size: 15px;
+    color:whitesmoke;
+    
+  }
+  
+  .dropdown-content a 
+  {
+    color: black;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+    color:whitesmoke;
+  }
+  
+  .dropdown-content a:hover 
+  {
+    background-color: #b99999;
+    color:whitesmoke;
+  }
+  
+  .dropdown:hover .dropdown-content
+   
+  {
+    display: block;
+    color:whitesmoke;
+  }
+
+
+
+.dropbtn3 {
+    /* background-color: #04AA6D; */
+    /* color: rgb(10, 10, 10); */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    left:100px;
+    position:absolute;
+    top:85px;
+    z-index: 3;
+    left:250px;
+    width:130px;
+    height:40px;
+    background-color: rgb(182, 65, 65);
+    color:whitesmoke;
+    font-family: yatraone;
+
+  }
+  
+  .dropdown3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #983d3d;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:250px;
+    font-size: 15px;
+    top:124px;
+    font-family: cinzel;
+  }
+  
+  .dropdown-content3 p {
+    color: black;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+    color:whitesmoke;
+  }
+  
+  .dropdown-content3 p:hover { background-color: #b99999;
+    color:whitesmoke;}
+  
+  .dropdown3:hover .dropdown-content3 {display: block;}
+
+
+
+
+  .dropbtn4 {
+    /* background-color: #04AA6D; */
+    /* color: rgb(10, 10, 10); */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  
+    position:absolute;
+    top:85px;
+    z-index: 3;
+    left:390px;
+    width:130px;
+    height:40px;
+    background-color: rgb(182, 65, 65);
+    color:whitesmoke;
+    font-family: yatraone;
+
+  }
+  
+  .dropdown4 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: #983d3d;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:390px;
+    font-size: 15px;
+    top:124px;
+    font-family: cinzel;
+  }
+  
+  .dropdown-content4 a {
+    color: black;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+    color:whitesmoke;
+  }
+  
+  .dropdown-content4 a:hover { background-color: #b99999;
+    color:whitesmoke;}
+  
+  .dropdown4:hover .dropdown-content4 {display: block;}
+  
+
+  
+  .dropbtn5 {
+    /* background-color: #04AA6D; */
+    /* color: rgb(10, 10, 10); */
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  
+    position:absolute;
+    top:85px;
+    z-index: 3;
+    left:560px;
+    width:130px;
+    height:40px;
+    background-color: rgb(182, 65, 65);
+    color:whitesmoke;
+    font-family: yatraone;
+
+  }
+  
+  .dropdown5 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: #983d3d;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:560px;
+    font-size: 15px;
+    top:124px;
+    font-family: cinzel;
+  }
+  
+  .dropdown-content5 a {
+    color: black;
+    padding: 12px 26px;
+    text-decoration: none;
+    display: block;
+    color:whitesmoke;
+  }
+  
+  .dropdown-content5 a:hover { background-color: #b99999;
+    color:whitesmoke;}
+  
+  .dropdown5:hover .dropdown-content5 {display: block;}
+  
+@font-face
+{
+    font-family: ShadowsIntoLight-Regular;
+    src:url(../font/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
+@font-face
+{
+    font-family: yatraone;
+    src:url(../font/YatraOne-Regular.ttf)
+}
+@font-face
+{
+    font-family: cinzel;
+    src:url(../font/Cinzel-VariableFont_wght.ttf);
+}
+@font-face
+{
+    font-family: logo;
+    src:url(../font/HughIsLifePersonalUseItalic-K7axe.ttf);
+}
+@font-face
+{
+    font-family: logo1;
+    src:url(../font/LovelyHome-9aBZ.ttf);
+}
+
+@font-face
+{
+    font-family: logo2;
+    src:url(../font/LostsunsetpersonaluseRegular-X3v9K.otf);
+}
+@font-face
+{
+    font-family: logo3;
+    src:url(../font/SweetHipster-PzlE.ttf);
+}
+@font-face
+{
+    font-family: logo4;
+    src:url(../font/LovelineGlamour-owdE0.ttf);
+}
+
+
+#headingtwo
+{
+ 
+    position:absolute;
+    left:20px;
+    top:-50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    font-family:logo2;
+    font-variant: small-caps;
+    font-style: italic;
+    /* width:400px;
+    height:500px; */
+    visibility: visible;
+    color:#ebe0e0
+}
+#instagramimage
+{
+    position: absolute;
+    left:1190px;
+    top:90px;
+}
+#twitterimage
+{
+    position: absolute;
+    left:1230px;
+    top:90px;
+}
+#facebookimage
+{
+    position: absolute;
+    left:1270px;
+    top:90px;
+}
+#youtubeimage
+{
+    position: absolute;
+    left:1310px;
+    top:90px;
+}
+
+#cartimage
+{
+    position: absolute;
+    left:1380px;
+    top:90px;
+}
+
+#userimage
+{
+    position: absolute;
+    left:1450px;
+    top:90px;
+} 
+#maincart
+{
+    width:890px;
+    height:1000px;
+    background-color: rgb(251, 249, 241);
+    position:relative;
+    left:390px;
+    top:0px;
+    border: 1px solid black;
+    /* border:1px solid black; */
+}
+#headingthree
+{
+    position: relative;
+    left:150px;
+    top:70px;
+    font-size: 35px;
+    /* display: inline; */
+    font-family: cinzel;
+    font-size: 37px;
+    font-weight: 600;
+
+}
+#billing
+{
+    position:relative;
+    top:70px;
+    left:150px;
+    font-size: 25px;
+    font-family: cinzel;
+  
+    font-weight: 600;
+}
+
+
+#one
+{
+    position:relative;
+    /* top:200px; */
+    width:560px;
+    left:-18px;
+    /* left:10px; */
+}
+#labelfirst
+{
+    position:relative;
+    top:70px;
+    left:150px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    
+    font-family: cinzel;
+   
+}
+#inputfirst
+{
+    position:relative;
+    top:80px;
+    left:150px;
+    display: inline-block;
+    width:550px;
+    height: 40px;
+}
+#labellast
+{
+    position:relative;
+    top:40px;
+    left:230px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    
+    font-family: cinzel;
+    visibility: hidden;
+}
+#inputlast
+{
+    position:relative;
+    top:35px;
+    left:470px;
+    display: inline-block;
+    width:230px;
+    height: 40px;
+    visibility: hidden;
+}
+#companyname
+{
+    position:relative;
+    top:60px;
+    left:150px;
+    display: inline-block;
+    width:400px;
+    height: 40px;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+#inputcompany
+{
+    position:relative;
+    top:66px;
+    left:150px;
+    display: inline-block;
+    width:550px;
+    height: 40px;
+}
+#country
+{
+    position:relative;
+    top:88px;
+    left:150px;
+    display: inline-block;
+    width:400px;
+    height: 40px;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+#inputcountry
+{
+    position:relative;
+    top:93px;
+    left:150px;
+    display: inline-block;
+    width:550px;
+    height: 46px;
+    font-family: cinzel;
+    font-size: 17px;
+
+}
+#streetaddress
+{
+    position:relative;
+    top:140px;
+    left:150px;
+    display: block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+    /* visibility: hidden; */
+    background-color:rgb(225, 64, 83);
+    color:rgb(251, 240, 240);
+}
+#inputadd1
+{
+    position:relative;
+    top:160px;
+    left:150px;
+    display: inline-block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+    background-color:rgb(225, 64, 83);
+    color:rgb(251, 240, 240);
+
+}
+
+/* #inputadd2
+{
+    position:relative;
+    top:140px;
+    left:150px;
+    display: block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+
+} */
+
+#city
+{
+    
+    position:relative;
+    top:163px;
+    left:150px;
+    display: inline-block;
+    width:400px;
+    height: 40px;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#inputcity
+{
+    position:relative;
+    top:164px;
+    left:150px;
+    display: inline-block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+
+}
+
+#state
+{
+    position:relative;
+    top:187px;
+    left:150px;
+    display: inline-block;
+    width:400px;
+    height: 40px;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+#inputstate
+{
+    position:relative;
+    top:184px;
+    left:150px;
+    display: inline-block;
+    width:562px;
+    height: 46px;
+    font-family: cinzel;
+    font-size: 17px;
+
+}
+
+
+#zipcode
+{
+    
+    position:relative;
+    top:235px;
+    left:150px;
+    display: inline-block;
+    width:400px;
+    height: 40px;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#inputzipcode
+{
+    position:relative;
+    top:200px;
+    left:150px;
+    display: inline-block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+
+}
+
+#phone
+{
+    
+    position:relative;
+    top:225px;
+    left:150px;
+    display: inline-block;
+    width:400px;
+    height: 40px;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#inputphone
+{
+    position:relative;
+    top:230px;
+    left:150px;
+    display: inline-block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+
+}
+
+#email
+{
+    
+    position:relative;
+    top:235px;
+    left:150px;
+    display: inline-block;
+    width:400px;
+    height: 40px;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#inputemail
+{
+    position:relative;
+    top:240px;
+    left:150px;
+    display: inline-block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+
+}
+
+#inform
+{
+    position:relative;
+    top:245px;
+    left:150px;
+    display: inline-block;
+    font-family: cinzel;
+    font-size: 20px;
+}
+
+#two
+{
+    position:relative;
+ 
+    width:570px;
+    left:-134px;
+    top:246px;
+}
+#ordernotes
+{
+    position:relative;
+    top:249px;
+    left:150px;
+    display: inline-block;
+    font-family: cinzel;
+    font-size: 17px;
+    font-weight: 600;
+}
+#ordernote
+{
+    position:relative;
+    top:259px;
+    left:150px;
+    display: inline-block;
+    font-family: cinzel;
+    font-size: 20px;
+}
+
+#login
+{
+    position:relative;
+    top:180px;
+    left:150px;
+    display: inline-block;
+    width:558px;
+    height: 44px;
+    font-family: cinzel;
+    font-size: 17px;
+
+
+}

@@ -1,0 +1,243 @@
+body
+{
+    /* background-color: rgb(251, 251, 250); */
+    background-color: rgb(230, 69, 69);
+    margin:0;
+}
+
+#header
+{
+    
+    height:180px;
+    width:100%;
+    top:0px;
+    left:0px;
+    right:0px;
+    /* border:1px solid burlywood; */
+   
+    background-color: rgb(243, 143, 143);
+    
+   
+   
+
+}
+
+#search
+{
+    position:relative;
+    left:40px;
+    top:70px;
+    width:250px;
+    height:40px;
+    text-indent: 30px;
+    font-size: larger;
+    
+   
+}
+#search:focus
+{
+    background-color: rgb(237, 231, 210);
+}
+#searchimage
+{
+    position: absolute;
+    left:50px;
+    top:80px;
+}
+
+#headingone
+{
+    position:absolute;
+    left:370px;
+    top:58px;
+    font-style: normal;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+@font-face
+{
+    font-family: ShadowsIntoLight-Regular;
+    src:url(../font/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
+@font-face
+{
+    font-family: yatraone;
+    src:url(../font/YatraOne-Regular.ttf)
+}
+@font-face
+{
+    font-family: cinzel;
+    src:url(../font/Cinzel-VariableFont_wght.ttf);
+}
+
+#headingtwo
+{
+ 
+    /* text-align: center; */
+    position:absolute;
+    left:650px;
+    top:-50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    font-family:ShadowsIntoLight-Regular;
+    font-style: italic;
+}
+#instagramimage
+{
+    position: absolute;
+    left:1190px;
+    top:90px;
+}
+#twitterimage
+{
+    position: absolute;
+    left:1230px;
+    top:90px;
+}
+#facebookimage
+{
+    position: absolute;
+    left:1270px;
+    top:90px;
+}
+#youtubeimage
+{
+    position: absolute;
+    left:1310px;
+    top:90px;
+}
+
+#cartimage
+{
+    position: absolute;
+    left:1390px;
+    top:90px;
+}
+
+#userimage
+{
+    position: absolute;
+    left:1350px;
+    top:90px;
+} 
+
+#maincart
+{
+    width:1140px;
+    height:500px;
+    background-color: rgb(251, 249, 241);
+    position:relative;
+    left:200px;
+    top:135px;
+
+    /* border:1px solid black; */
+}
+#headingthree
+{
+    position: relative;
+    left:150px;
+    top:70px;
+}
+#carttable
+{
+    position:relative;
+    top:90px;
+    left:140px;
+    border:1px solid black;
+    width:900px;
+    height:300px;
+    font-size: 20px;
+    
+}
+.card-img-top
+{
+    position: relative;
+    left:100px;
+    display: inline;
+    height:600px;
+    width:400px;
+}
+.price
+{
+    display: inline-block;
+    position: relative;
+    left:400px;
+    top:-550px;
+}
+.rs
+{
+    display: inline-block;
+    position: relative;
+    left:280px;
+    top:-510px;
+}
+.line
+{
+    display: inline-block;
+    position: relative;
+    left:-70px;
+    top:-490px;
+    width:600px;
+    /* line-height: 19px; */
+    color:black;
+}
+.contact
+{
+    display: inline-block;
+    position: relative;
+    left:-460px;
+    top:-450px;
+    width:130px;
+    height: 20px;
+    border: 1px solid rgb(202, 169, 169);
+    padding: 4px;
+    font-weight: 400;
+}
+.contact:hover
+{
+    background-color:rgb(217, 90, 90) ;
+    color: white;
+    cursor: pointer;
+}
+
+.service
+{
+    width:700px;
+    height:1200px;
+    background-color: rgb(230,69,69);
+    position: relative;
+    top:-450px;
+    left:530px;
+    /* border: 2px solid black; */
+    font-size: 18px;
+}
+
+
+.name
+{
+    position: absolute;
+    top:830px;
+    left:100px;
+    font-size: 30px;
+    font-family: ShadowsIntoLight-Regular
+}
+.aboutus
+{
+    position: absolute;
+    left:100px;
+    top:900px;
+    font-size: 20px;
+    font-family: cinzel;
+}
+.detail
+{
+    position: absolute;
+    left:100px;
+    top:940px;
+    font-size: 20px;
+    font-family: cinzel;
+    width:400px;
+    font-weight: 400;
+font-style: bold;
+}

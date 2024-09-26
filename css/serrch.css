@@ -1,0 +1,12 @@
+#mainc
+{
+    position:relative;
+    display: block;
+    top:200px;
+}
+.roww
+{
+    display:flex;
+    position: absolute;
+    left:590px;
+}

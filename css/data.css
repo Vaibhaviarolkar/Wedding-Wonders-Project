@@ -1,0 +1,31 @@
+table
+{
+    width:1000px;
+    height:600px;
+}
+
+body
+{
+    background-color: rgb(230, 210, 204);
+    /* color: ; */
+}
+
+th
+{
+    background-color: #983d3d;
+    color: whitesmoke;
+    font-size: 20px;
+}
+td
+{
+    /* background-color: #b99999; */
+    background-color:   rgb(255, 236, 236);
+    text-align: center;
+    font-size: 17px;
+   font-weight: 700;
+}
+h2
+{
+    font-size: 30px;
+    color: #983d3d;
+}
